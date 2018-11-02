@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.ball-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball-container > .ball {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50px;
+    position:absolute;
+}
+
+.ball-container > .ball:hover {
+    cursor: pointer;
+}
